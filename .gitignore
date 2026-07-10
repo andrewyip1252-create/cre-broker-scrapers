@@ -1,0 +1,22 @@
+# Environment variables / secrets
+.env
+
+# Data outputs
+output/
+*.csv
+errors/
+*.png
+
+# Progress / resume state
+*_progress.json
+progress.txt
+proxies.txt
+.edge-session/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

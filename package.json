@@ -1,0 +1,20 @@
+{
+  "name": "cre-broker-scrapers",
+  "version": "1.0.0",
+  "description": "Scrapers that collect commercial real estate broker contact info from various brokerage sites and write it to CSV.",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "colliers": "node 1_scrape_colliers.js",
+    "signature": "node 1_scrape_signature.js",
+    "kbc": "node 2_scrape_kbc.js",
+    "jll-canada": "node jll_canada_scraper.js",
+    "jll-people": "node jll_people_scraper.js",
+    "nai": "node nai_brokers.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
